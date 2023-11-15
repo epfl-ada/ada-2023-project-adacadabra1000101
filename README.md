@@ -52,3 +52,40 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     
 ## Proposed Timeline
 
+
+    
+## Team Contributions
+<table class="tg" style="undefined;table-layout: fixed; width: 342px">
+<colgroup>
+<col style="width: 164px">
+<col style="width: 178px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax">Tasks</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Tim1110mann</td>
+    <td class="tg-0lax">Exploring and pre-processing movies and characters metadata<br><br>Writing the ReadMe</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">CVoirol</td>
+    <td class="tg-0lax">Pre-processing tv tropes data and merging it with character and movies metadata<br><br><br><br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">izushka</td>
+    <td class="tg-0lax">Extracting actor images from The Movie Database<br><br><br><br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">AnandaW0lz</td>
+    <td class="tg-0lax">Analyzing plotted graphs<br><br><br><br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Usermatthis</td>
+    <td class="tg-0lax">Pre-processing tv tropes data and merging it with character and movies metadata<br><br><br><br></td>
+  </tr>
+</tbody>
+</table>
