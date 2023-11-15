@@ -2,7 +2,7 @@
 
 ## Abstract
 Have you ever wondered why some actors keep getting cast in the same role? Why Dwayne Johnson always seems to plays the adventurous, headstrong and caring leader? Why Jason Staham is constantly cast as the gritty, hardboiled tough guy? And do these recurring casting choices lead to box office success? <br>
-This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. In this study, we want to analyse the physical aspects of typecasting, by decoding the features *(gender, age, ethnicity and facial features)* of the actors playing these character tropes on the silver screen and observing them throughout time and genres, before associating these findings to the movie's success. These features will be analysed courtesy of both the CMU Movies Summary Corpus and a facial analysis algorithm.
+This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. In this study, we want to analyse the physical aspects of typecasting, by decoding the features *(gender, age, ethnicity and facial features)* of the actors playing these character tropes on the silver screen and observing them throughout time and genres, before correlate these findings to the movie's box office success. These features will be analysed courtesy of both the CMU Movies Summary Corpus and a facial analysis algorithm.
 
 ## Research questions
 In this study, we would like to answer these questions:
@@ -11,6 +11,10 @@ In this study, we would like to answer these questions:
 * What is the effect of these casting choices on a movie's box office success?
 
 ## Additional Datasets
+
+## Methods
+### 1) Clustering Algorithm
+We use a clustering algorithm to regroup similar tropes and ethnicities together. This will allow for better data visualization as there will be more data by cluster.
 
 ### Part 1: Exploring and pre-processing the data
 We are given a series of datasets in this corpus, with the metadata and tv tropes cluster being the data of most interest for us. This metadata is comprised of two dataframes, the movie metadata and the characters metadata. As indicated in the CMU Movie Summary Corpus ReadMe, these two dataframes have a many variables. Let us first identify the variables of interest for our story. <br>
@@ -25,9 +29,12 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     
 **Step 2: TV Tropes**
     - We pre-process our tvtropes.clusters.txt file and merge it with our merged character and movies metadata.
-    - We identify 501 character tropes with 72 unique archetypes.
+    - We identify 501 character tropes with 72 unique archetypes. As such, we focus on these 501 tropes and their associated characters, actors and movies.
+    - We merge TV Tropes with Movie and Character MetaData
 
 ### Part 2: Clustering tropes together
     
- 
+### Part 3: Facial Image Analysis
+**Step X: Analysing Facial Features**
+- We quantify the features of actors' face
 
