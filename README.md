@@ -24,31 +24,31 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
 - *Movie metadata: Wiki_movieID, Movie Name, Release Date, Box Office, Genres* <br>
 - *Character metadata: Wiki_movieID, Release Date, Character Name, Gender, Height, Ethinicity, Actor Name, Age at Movie Release* <br>
 
-**Step 1: Movie and Characters MetaData**
+**Step 1: Movie and Characters MetaData** <br>
     - We plot our variables of interest to visualise the coherence of our data before fixing any errors. <br>
     - We analyse the percentage of missing data, giving us insight on the datasets we should use to complete our study. <br>
-    - We complete key missing data *(Actor Ethnicity)*.
+    - We complete key missing data *(Actor Ethnicity)*. <br>
     - We merge movies.metadata.tsv with characters.metadata.tsv to associate the characters with their respective genres, movie box office revenue and decade of release. <br>
     
-**Step 2: TV Tropes**
-    - We pre-process our tvtropes.clusters.txt file and merge it with our merged character and movies metadata.
-    - We identify 501 character tropes with 72 unique archetypes. As such, we focus on these 501 tropes and their associated characters, actors and movies. We identify 350 actors corresponding to these 501 character archetypes.
-    - We merge TV Tropes with Movie and Character MetaData.
-    - We plot the number of tropes in function of movie genres to identify which genres we can remove from our dataset.
+**Step 2: TV Tropes** <br>
+    - We pre-process our tvtropes.clusters.txt file and merge it with our merged character and movies metadata. <br>
+    - We identify 501 character tropes with 72 unique archetypes. As such, we focus on these 501 tropes and their associated characters, actors and movies. We identify 350 actors corresponding to these 501 character archetypes. <br>
+    - We merge TV Tropes with Movie and Character MetaData. <br>
+    - We plot the number of tropes in function of movie genres to identify which genres we can remove from our dataset. <br>
     
-**Step 3: Extracting Actor**
-    - We extract the 350 actor images from The Movies Database to create the Actor_image.csv dataset. 
+**Step 3: Extracting Actor** <br>
+    - We extract the 350 actor images from The Movies Database to create the Actor_image.csv dataset. <br>
 
 ### Part 2: Clustering our data
-**Step 4: Clustering Tropes**
-    - We have 72 unique character tropes. This gives an average of 7 characters per trope. This is too little data for any significant analysis. As such, we decide to cluster similar tropes together to give us a more subsequent amount of characters per clustered trope.
+**Step 4: Clustering Tropes** <br>
+    - We have 72 unique character tropes. This gives an average of 7 characters per trope. This is too little data for any significant analysis. As such, we decide to cluster similar tropes together to give us a more subsequent amount of characters per clustered trope. <br>
     
-**Step 5: Clustering Ethnicities**
-    - Similarly to our character tropes, we identify a large number of unique ethnicities. With the same reasoning as for the tropes, we cluster our ethnicities together for better analysis.
+**Step 5: Clustering Ethnicities** <br>
+    - Similarly to our character tropes, we identify a large number of unique ethnicities. With the same reasoning as for the tropes, we cluster our ethnicities together for better analysis. <br>
     
 ### Part 3: Facial Image Analysis
-**Step X: Analysing Facial Features**
-    - We analyse and quantify the facial features of our actor images using a facial recognition algorithm.
+**Step X: Analysing Facial Features** <br>
+    - We analyse and quantify the facial features of our actor images using a facial recognition algorithm. <br>
     
 ## Proposed Timeline
 
