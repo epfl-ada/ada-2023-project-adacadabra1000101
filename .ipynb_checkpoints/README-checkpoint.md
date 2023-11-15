@@ -11,7 +11,8 @@ In this study, we would like to answer these questions:
 * What is the effect of these casting choices on a movie's box office success?
 
 ## Additional Datasets
-- Actor Images Dataset: We construct our own dataset containing images of the actors of interest. We obtain the images from The Movie DataBase (TMDB). These images will be analysed to obtain the quantified facial features. They will in turn be used as variables for our study.
+- Actor Images Dataset: We construct our own dataset containing images of the actors of interest. We obtain the images from The Movie DataBase (TMDB). These images will be analysed to obtain the quantified facial features. They will in turn be used as variables for our study.<br>
+- WikiData: We use WikiData to convert our ActorEthnicities values from keys to usable, readable words.
 
 ## Methods
 ### 1) Clustering Algorithm
@@ -73,7 +74,7 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
   </tr>
   <tr>
     <td class="tg-0lax">CVoirol</td>
-    <td class="tg-0lax">Pre-processing tv tropes data and merging it with character and movies metadata<br><br><br><br></td>
+    <td class="tg-0lax">Converting ethnicity from keys to usable words using WikiData<br><br><br><br></td>
   </tr>
   <tr>
     <td class="tg-0lax">izushka</td>
