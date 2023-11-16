@@ -37,7 +37,7 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     - We merge TV Tropes with Movie and Character MetaData. <br>
     - We plot the number of tropes in function of movie genres to identify which genres we can remove from our dataset. <br>
     
-**Step 3: Extracting Actor** <br>
+**Step 3: Extracting Actor Images** <br>
     - We extract the 350 actor images from The Movies Database to create the Actor_image.csv dataset. <br>
 
 ### Part 2: Clustering our data
