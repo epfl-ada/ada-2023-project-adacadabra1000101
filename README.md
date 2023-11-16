@@ -62,7 +62,7 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
 **Step 7: Web Design** <br>
     - We use our findings to create our story on the webpage. <br>
 
-### Part 6: Where the fun begins
+### Part 6: When the fun *finally* begins
 **Step 8: Adding our own images** <br>
     - We add our own images and use what we found earlier to determine what character trope would suit each of us best. <br>
 
