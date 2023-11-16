@@ -2,7 +2,7 @@
 
 ## Abstract
 Have you ever wondered why some actors keep getting cast in the same role? Why Dwayne Johnson always seems to plays the adventurous, headstrong and caring leader? Why Jason Staham is constantly cast as the gritty, hardboiled tough guy? And do these recurring casting choices lead to box office success? <br>
-This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse the physical aspects of these tropes, by decoding the features *(gender, age, ethnicity and facial features)* of the actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success. 
+This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse these tropes, by decoding the features *(gender, age, height, ethnicity and facial features)* of their actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success. 
 
 ## Research questions
 In this study, we would like to answer these questions:
@@ -75,23 +75,23 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
 <tbody>
   <tr>
     <td class="tg-0lax">Tim1110mann</td>
-    <td class="tg-0lax">Exploring and pre-processing movies and characters metadata<br> Grouping TV Tropes together<br>Writing the ReadMe</td>
+    <td class="tg-0lax">Exploring and pre-processing movies & characters metadata and TV Tropes (except ethnicity) data<br><br>Writing the ReadMe</td>
   </tr>
   <tr>
     <td class="tg-0lax">CVoirol</td>
-    <td class="tg-0lax">Converting ethnicity from keys to usable words using WikiData<br>Grouping ethnicities together<br><br><br></td>
+    <td class="tg-0lax">Converting ethnicity from keys to usable words using WikiData<br>Grouping and simplyfying ethnicities <br><br><br></td>
   </tr>
   <tr>
     <td class="tg-0lax">izushka</td>
-    <td class="tg-0lax">Extracting actor images and their features from TMDB<br><br><br><br></td>
+    <td class="tg-0lax">Extracting actor images and their facial features from TMDB<br><br><br><br></td>
   </tr>
   <tr>
     <td class="tg-0lax">AnandaW0lz</td>
-    <td class="tg-0lax">Extracting actor images and their features from TMDB<br><br><br><br></td>
+    <td class="tg-0lax">Extracting actor images and their facial features from TMDB<br><br><br><br></td>
   </tr>
   <tr>
     <td class="tg-0lax">Usermatthis</td>
-    <td class="tg-0lax">Pre-processing TV Tropes data and merging it with character and movies metadata<br><br><br><br></td>
+    <td class="tg-0lax">Exploring and pre-processing movies & characters metadata and TV Tropes data<br><br><br><br></td>
   </tr>
 </tbody>
 </table>
