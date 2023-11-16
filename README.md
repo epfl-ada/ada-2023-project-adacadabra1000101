@@ -6,7 +6,7 @@ This phenomenon is called typecasting, in which an actor becomes strongly identi
 
 ## Research questions
 In this study, we would like to answer these questions:
-* How do the chosen actor attributes influence their casting based on character tropes?
+* Do certain character tropes have a specific actor type?
 * Do these casting preferences fluctuate over the decades and movie genres?
 * What is the effect of these casting choices on a movie's box office success?
 
