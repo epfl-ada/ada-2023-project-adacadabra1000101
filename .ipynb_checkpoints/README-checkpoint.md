@@ -53,12 +53,12 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     - We analyse and quantify the facial features of our actor images using a facial recognition algorithm. <br>
     
 ## Proposed Timeline
-|
-- 17.11.23: P2 Milestone - Pre-processing our data to obtain concise dataframes.
-|
-- Date: (Milestone) - details
-|
-- 22.12.23: P3 Milestone - ADAcadabraaaa 🪄💫
+| <br>
+- 17.11.23: P2 Milestone - Pre-processing our data to obtain concise dataframes. <br>
+| <br>
+- Date: (Milestone) - details <br>
+| <br>
+- 22.12.23: P3 Milestone - ADAcadabraaaa 🪄💫 <br>
 
     
 ## Team Contributions
