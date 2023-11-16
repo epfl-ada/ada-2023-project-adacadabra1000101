@@ -112,7 +112,7 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
   </tr>
   <tr>
     <td class="tg-0lax">CVoirol</td>
-    <td class="tg-0lax">Converting ethnicity keys to strings using [WikiData](https://query.wikidata.org/sparql) before grouping and simplifying them <br><br><br><br></td>
+    <td class="tg-0lax">Converting ethnicity keys to strings using WikiData before grouping and simplifying them <br><br><br><br></td>
   </tr>
   <tr>
     <td class="tg-0lax">izushka</td>
