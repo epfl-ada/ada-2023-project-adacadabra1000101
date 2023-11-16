@@ -89,7 +89,7 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
 - 19.12 - Adding our own Images <br>
 ↓ <br>
 - 22.12 - BONUS: Adding an interactive feature <br>
-- ↓ <br>
+↓ <br>
 - 23.12: P3 Milestone - ADAcadabraaaa 🪄💫 <br>
 
     
