@@ -2,12 +2,12 @@
 
 ## Abstract
 Have you ever wondered why some actors keep getting cast in the same role? Why Dwayne Johnson always seems to plays the adventurous, headstrong and caring leader? Why Jason Staham is constantly cast as the gritty, hardboiled tough guy? And do these recurring casting choices lead to box office success? <br>
-This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse the physical aspects of typecasting, by decoding the features *(gender, age, ethnicity and facial features)* of the actors playing these character tropes on the silver screen and observing them throughout time and genres, before correlating these findings to the movie's box office success. 
+This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse the physical aspects of these tropes, by decoding the features *(gender, age, ethnicity and facial features)* of the actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success. 
 
 ## Research questions
 In this study, we would like to answer these questions:
-* How do physical attributes influence the casting based on character tropes?
-* Do these preferences fluctuate over the decades and movie genres?
+* How do the chosen actor attributes influence their casting based on character tropes?
+* Do these casting preferences fluctuate over the decades and movie genres?
 * What is the effect of these casting choices on a movie's box office success?
 
 ## Additional Datasets
@@ -35,10 +35,11 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     - We pre-process our tvtropes.clusters.txt file and merge it with our merged character and movies metadata. <br>
     - We identify 501 character tropes with 72 unique archetypes. As such, we focus on these 501 tropes and their associated characters, actors and movies. We identify 350 actors corresponding to these 501 character archetypes. <br>
     - We merge TV Tropes with Movie and Character MetaData. <br>
-    - We plot the number of tropes in function of movie genres to identify which genres we can remove from our dataset. <br>
+    - We plot our data to visualise it and further filter it, if needed. <br>
     
-**Step 3: Extracting Actor** <br>
+**Step 3: Extracting Actor Images** <br>
     - We extract the 350 actor images from The Movies Database to create the Actor_image.csv dataset. <br>
+    - We pre-process this new dataset.
 
 ### Part 2: Clustering our data
 **Step 4: Clustering Tropes** <br>
@@ -52,7 +53,11 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     - We analyse and quantify the facial features of our actor images using a facial recognition algorithm. <br>
     
 ## Proposed Timeline
-
+- 17.11.23: P2 Milestone - Pre-processing our data to obtain concise dataframes. <br>
+↓ <br>
+- Date: (Milestone) - details <br>
+↓ <br>
+- 22.12.23: P3 Milestone - ADAcadabraaaa 🪄💫 <br>
 
     
 ## Team Contributions
