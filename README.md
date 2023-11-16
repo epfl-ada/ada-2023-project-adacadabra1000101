@@ -31,33 +31,66 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     - We merge movies.metadata.tsv with characters.metadata.tsv to associate the characters with their respective genres, movie box office revenue and decade of release. <br>
     
 **Step 2: TV Tropes** <br>
-    - We pre-process our tvtropes.clusters.txt file and merge it with our merged character and movies metadata. <br>
-    - We identify 501 character tropes with 72 unique archetypes. As such, we focus on these 501 tropes and their associated characters, actors and movies. We identify 350 actors corresponding to these 501 character archetypes. <br>
+    - We pre-process our tvtropes.clusters.txt file and merge it with our merged character & movies metadata. We identify 501 character tropes with 72 unique tropes. <br>
     - We merge TV Tropes with Movie and Character MetaData. <br>
-    -   - We complete key missing data *(Actor Ethnicity and ActorAge)* <br>
-    - We plot our data to visualise it and further filter it, if needed. <br>
+    - We complete key missing data. <br>
+    - We visualise our data and further filter it by grouping tropes and ethnicities together. <br>
     
 **Step 3: Extracting Actor Images** <br>
     - We extract the 350 actor images from [The Movie Database](https://www.themoviedb.org/) to create the Actor_image.csv dataset. <br>
     - We pre-process this new dataset.
+    
+### Part 2: Facial Image Analysis
+**Step 4: Extracting Facial Features** <br>
+    - We extract the facial features of our actor images using a facial recognition algorithm. <br>
 
-### Part 2: Clustering our data
-**Step 4: Clustering Tropes** <br>
-    - We have 72 unique character tropes. This gives an average of 7 characters per trope. This is too little data for any significant analysis. As such, we decide to cluster similar tropes together to give us a more subsequent amount of characters per clustered trope. <br>
-    
-**Step 5: Clustering Ethnicities** <br>
-    - Similarly to our character tropes, we identify a large number of unique ethnicities. With the same reasoning as for the tropes, we cluster our ethnicities together for better analysis. <br>
-    
-### Part 3: Facial Image Analysis
-**Step X: Analysing Facial Features** <br>
-    - We analyse and quantify the facial features of our actor images using a facial recognition algorithm. <br>
-    
+**Step 5: Analysing and Selecting Facial Features** <br>
+    - We analyse and select the facial features that are most pertinent to our study. <br>
+
+### Part 3: Clustering our data
+**Step 4: Clustering Facial Features** <br>
+    - We cluster the similar facial features we identified earlier together. <br>
+
+### Part 4: Data Analysis
+**Step 5: Correlating with our tropes-characters-movies dataset** <br>
+    - We correlate the obtained facial features with the other features given to us by CMU Movie Summary Corpus, to identify feature trends in function of character tropes.<br>
+
+**Step 6: Analysis** <br>
+    - We analyse our data and find answers to our research questions. <br>
+
+### Part 5: Story-Telling
+**Step 7: Web Design** <br>
+    - We use our findings to create our story on the webpage. <br>
+
+### Part 6: Where the fun begins
+**Step 8: Adding our own images** <br>
+    - We add our own images and use what we found earlier to determine what character trope would suit each of us best. <br>
+
+***BONUS step: Adding an interactive feature*** <br>
+    - We add a feature where a user can upload his own image and/or fill a form. We would then analyse his image and/or form to show the character trope that suits the user best.
+
 ## Proposed Timeline
-- 17.11.23: P2 Milestone - Pre-processing our data to obtain concise dataframes. <br>
+- 17.11: Pre-processing our movies & character metadata as well as tv tropes cluster. <br>
+- 17.11: Extracting images from TMDB <br>
 ↓ <br>
-- Date: (Milestone) - details <br>
+- 18.11 - P2 Milestone <br>
 ↓ <br>
-- 22.12.23: P3 Milestone - ADAcadabraaaa 🪄💫 <br>
+- 24.11 - Extracting facial features from Actor_Images dataset <br>
+↓ <br>
+- Break - Homework 2 <br>
+↓ <br>
+- 05.12 - Clustering Facial Features <br>
+↓ <br>
+- 08.12 - Correlating with tropes-movies-characters dataset <br>
+- 08.12 - Analysis <br>
+↓ <br>
+- 15.12 - Web Design <br>
+↓ <br>
+- 19.12 - Adding our own Images <br>
+↓ <br>
+- 22.12 - BONUS: Adding an interactive feature <br>
+- ↓ <br>
+- 23.12: P3 Milestone - ADAcadabraaaa 🪄💫 <br>
 
     
 ## Team Contributions
