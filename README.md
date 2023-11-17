@@ -2,13 +2,17 @@
 
 ## Abstract
 Have you ever wondered why some actors keep getting cast in the same role? Why Dwayne Johnson always seems to plays the adventurous, headstrong and caring leader? Why Jason Staham is constantly cast as the gritty, hardboiled tough guy? And do these recurring casting choices lead to box office success? <br>
-This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. In this study, we want to analyse these tropes, by decoding the features *(gender, age, height, ethnicity and facial features)* of their actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success.  The CMU Movies Summary Corpus has already observed 501 connections between actors and recurring character tropes. 
+This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 connections between actors and recurring character tropes. In this study, we want to analyse these tropes, by decoding the features *(gender, age, height, ethnicity and facial features)* of their actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success.  
 
 ## Research questions
-In this study, we would like to answer these questions:
-* Do certain character tropes have a specific actor type?
+In this study, we would like to explore following:
+* Explore whether specific actor types are associated with particular character tropes
 * Do these casting preferences fluctuate over the decades and movie genres?
-* What is the effect of these casting choices on a movie's box office success?
+* How does the alignment between casting choices and ideal character portrayals impact a movie's box office success?
+### Subquestions for story telling
+* Do casting choices perpetuate stereotypes?
+* Did certain films establish a trend in typecasting, where actors are selected based on their similarity to a particularly influential portrayal in a specific role?
+* In what type of role would you find yourself typecast?
 
 ## Additional Datasets
 - Actor Images Dataset: We construct our own dataset containing images of the actors of interest. We obtain the images from [The Movie DataBase](https://www.themoviedb.org/) (TMDB). These images will be analysed to obtain the quantified facial features. They will in turn be used as variables for our study.<br>
@@ -19,6 +23,7 @@ In this study, we would like to answer these questions:
 We use a clustering algorithm to regroup similar tropes and ethnicities together. This will allow for better data visualization as there will be more data per trope cluster.
 
 ### 2)
+How does the alignment between casting choices and ideal character portrayals impact a movie's box office success? In other words, does closer adherence to the perfect casting choice correlate with higher revenue, while deviation from the ideal casting leads to lower financial returns?
 
 ### Part 1: Exploring and pre-processing the data
 We are given a series of datasets in this corpus, with the metadata and tv tropes cluster being the data of most interest for us. This metadata is comprised of two dataframes, the movie metadata and the characters metadata. As indicated in the CMU Movie Summary Corpus ReadMe, these two dataframes have a many variables. Let us first identify the variables of interest for our story. <br>
