@@ -4,6 +4,10 @@
 Have you ever wondered why some actors keep getting cast in the same role? Why Dwayne Johnson always seems to plays the adventurous, headstrong and caring leader? Why Jason Staham is constantly cast as the gritty, hardboiled tough guy? And do these recurring casting choices lead to box office success? <br>
 This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse these tropes, by decoding the features *(gender, age, height, ethnicity and facial features)* of their actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success.  
 
+
+_**Please find our code and results in project.ipynb**_
+
+
 ## Research questions
 In this study, we would like to explore following:
 * Explore whether specific actor types are associated with particular character tropes
@@ -63,7 +67,7 @@ We identify the datasets of interest and their variables: *movies.metadata.tsv*,
 ### Part 4: Data Analysis
 **Step 7: Analysis** <br>
     - We analyse our data and find answers to our research questions. <br>
-    - We also use t-test
+    - We also use t-test to test whether tropes are similar to each other <br>
 
 ### Part 5: Story-Telling
 **Step 8: Web Design** <br>
