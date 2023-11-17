@@ -87,7 +87,7 @@ We identify the datasets of interest and their variables: *movies.metadata.tsv*,
 ↓ <br>
 - 05.12 - Classifying our data <br>
 ↓ <br>
-- 08.12 - Analysis <br>
+- 08.12 - Analysis and Model Selection <br>
 ↓ <br>
 - 15.12 - Web Design <br>
 ↓ <br>
