@@ -15,8 +15,8 @@ In this study, we would like to explore following:
 * In what type of role would you find yourself typecast?
 
 ## Additional Datasets
-- Actor Images Dataset: We construct our own dataset containing good quality face images of the actors of interest (#347). We obtain the images from [The Movie DataBase](https://www.themoviedb.org/) (TMDB). We generated a personal API to extract the images URL and store them in a csv file with corresponding actor names.  We will use Dlib, a widely used pre-trained facial landmark detector to identify 68 key points on the face, storing them as pairs of coordinates. They will in turn used to derive additional features that we will link to the actors for our study.[WikiData](https://query.wikidata.org/sparql): Dlib annotations emphasize the importance of resolution and head pose accuracy in landmark placement. Illumination, quality, and color have a relatively minor impact (https://essay.utwente.nl/86867/1/Meijerink_BA_EEMCS.pdf). Despite having high-quality images and a well-trained model, we still encounter head pose challenges. In the upcoming steps, we will explore methods to rotate a 3D face to a pose comparable to a standard face. From these standardized images, we will extract facial landmarks to enhance the performance of the chosen model. Additionally, the features calculated from the landmarks we will address proportional considerations, as length between landmarks does not provide information as we do not have a reference length. <br>
-- We use WikiData to convert our ActorEthnicities values from keys to usable, readable strings. 
+- Actor Images Dataset: We construct our own dataset containing good quality face images of the actors of interest (#347). We obtain the images from [The Movie DataBase](https://www.themoviedb.org/) (TMDB). To see more detail, consult Step 3. <br>
+- [WikiData](https://query.wikidata.org/sparql): We use WikiData to convert our ActorEthnicities values from keys to usable, readable strings. 
 
 ## Methods
 ### 1) Clustering Algorithm
@@ -43,7 +43,11 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
     
 **Step 3: Extracting Actor Images** <br>
     - We extract the 350 actor images from [The Movie Database](https://www.themoviedb.org/) to create the Actor_image.csv dataset. <br>
-    - We pre-process this new dataset.
+    -  We generated a personal API to extract the images URL and store them in a csv file with corresponding actor names.  We will use Dlib, a widely used pre-trained facial landmark detector to identify 68 key points on the face, storing them as pairs of coordinates. They will in turn used to derive additional features that we will link to the actors for our study. [Dlib annotations emphasize the importance of resolution and head pose accuracy in landmark placement. Illumination, quality, and color have a relatively minor impact](https://essay.utwente.nl/86867/1/Meijerink_BA_EEMCS.pdf). <br>
+    <p align = "center">
+        <img src = "https://github.com/epfl-ada/ada-2023-project-adacadabra1000101/assets/145772112/a8839649-0450-4d0d-9b08-e1fdbca23b2e.png" width = "400" height = "400"> <br>
+    </p>
+    - Despite having high-quality images and a well-trained model, we still encounter head pose challenges. In the upcoming steps, we will explore methods to rotate a 3D face to a pose comparable to a standard face. From these standardized images, we will extract facial landmarks to enhance the performance of the chosen model. Additionally, the features calculated from the landmarks we will address proportional considerations, as length between landmarks does not provide information as we do not have a reference length.
     
 ### Part 2: Facial Image Analysis
 **Step 4: Extracting Facial Features** <br>
