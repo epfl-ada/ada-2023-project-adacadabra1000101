@@ -63,7 +63,7 @@ We identify the datasets of interest and their variables: *movies.metadata.tsv*,
 ### Part 4: Data Analysis
 **Step 7: Analysis** <br>
     - We analyse our data and find answers to our research questions. <br>
-    - We also use t-test
+    - We also use t-test to test whether tropes are similar to each other <br>
 
 ### Part 5: Story-Telling
 **Step 8: Web Design** <br>
