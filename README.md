@@ -20,46 +20,36 @@ In this study, we would like to explore following:
 
 ## Methods
 ### 1) Supervised Machine Learning for Classification
-We want to find the function, y=F(X), that links the actor's features to the character trope played. We are given input/output pairs (X, y) with y the class labels and X the list of actor features, both continous and categorical. <br>
+We want to find the function, y=F(X), that links the actor's features to the character trope played. We are given input/output pairs (X, y) with y the class labels and X the list of actor features, both continous and categorical. An example that could be used is logistic regression, which would give us an output between 0 and 1 of belonging to a character trope based on a input of actor features.<br>
 
-### 2) Network Analysis
-We use this method to better visualise the links between our actor features and our variables of interest (box office success, decades of release, character tropes). We will decide on the best model to use based on our research questions and our choice will be described in P3 Milestone. Should we choose k-NN for example, we would choose a meaningful similarity metric in function of our image dataset.<br>
+### 2) Similarity Metrics
+We use this method to better visualise the links between our actor features and our variables of interest (box office success, decades of release, character tropes). We will decide on the best model to use based on our research questions and our choice will be described in P3 Milestone.<br>
 
 ### 3) T-Tests
-We will use hypothesis testing to test if two or more tropes are similar in terms of features. We will perform a standard t-test, comparing the measn of the value of both group.
+We will use hypothesis testing to test if two or more tropes are similar in terms of features. We will perform a standard t-test, comparing the means of the value of both group.
 
 
+## Project Structure
 ### Part 1: Exploring and pre-processing the data
-We identify the datasets of interest: *movies.metadata.tsv*, *characters.metadata.tsv* and *tvtropes.clusters.txt*.
-Let us first identify the variables of interest for our story. <br>
+We identify the datasets of interest and their variables: *movies.metadata.tsv*, *characters.metadata.tsv* and *tvtropes.clusters.txt*. <br>
 - *Movie metadata: Wiki_movieID, Movie Name, Release Date, Box Office, Genres* <br>
 - *Character metadata: Wiki_movieID, Release Date, Character Name, Gender, Height, Ethinicity, Actor Name, Age at Movie Release* <br>
 
-**Step 1: Movie and Characters MetaData** <br>
-    - We plot our variables of interest to visualise distributions, range and/or aberrant outliers. <br>
-    - We analyse the percentage of missing data, giving us insight on how to complete them . <br>
+**Step 1: Exploring Movie and Characters MetaData** <br>
+    - We plot our variables of interest and their missing data to visualise distributions, range and/or aberrant outliers. <br>
     - We merge movies.metadata.tsv with characters.metadata.tsv to associate the characters with their respective genres, movie box office revenue and decade of release. <br>
     
 **Step 2: TV Tropes** <br>
-    - We pre-process our tvtropes.clusters.txt file and merge it with our merged character & movies metadata. We identify 501 character tropes with 72 unique tropes. <br>
-    - We complete key missing data such as Actor Age which we calculate using DOB and Release Date <br>
-    - Using WikiData, we convert the ethnicity labels to readable strings. <br>
-    - We filter it by grouping tropes and ethnicities together before visualizing it. <br>
+    - We merge tvtropes.clusters.txt with our merged character & movies metadata. We identify 501 character tropes with 72 unique tropes. <br>
     - We do univariate and bivariate exploratory data analysis for our variables of interest. <br>
     
 **Step 3: Extracting Actor Images** <br>
-    - We extract the 350 actor images from [The Movie Database](https://www.themoviedb.org/) to create the Actor_image.csv dataset. <br>
-    - We generated a personal API to extract the images URL and store them in a csv file with corresponding actor names.  We will use Dlib, a widely used pre-trained facial landmark detector to identify 68 key points on the face, storing them as pairs of coordinates. They will in turn used to derive additional features that we will link to the actors for our study. [Dlib annotations emphasize the importance of resolution and head pose accuracy in landmark placement. Illumination, quality, and color have a relatively minor impact](https://essay.utwente.nl/86867/1/Meijerink_BA_EEMCS.pdf). <br>
-    <p align = "center">
-        <img src = "https://github.com/epfl-ada/ada-2023-project-adacadabra1000101/assets/145772112/a8839649-0450-4d0d-9b08-e1fdbca23b2e.png" width = "400" height = "400"> <br>
-    </p>
+    - We extract the 350 actor images from [The Movie Database](https://www.themoviedb.org/) to create the Actor_image.csv dataset. Please see our project-P2-milestone for more details <br>
     - Despite having high-quality images and a well-trained model, we still encounter head pose challenges. In the upcoming steps, we will explore methods to rotate a 3D face to a pose comparable to a standard face. From these standardized images, we will extract facial landmarks to enhance the performance of the chosen model. <br>
     
 ### Part 2: Facial Image Analysis
 **Step 4: Extracting Facial Features** <br>
     - We use the extracted coordinates to derive additional facial features of our actor images.<br>
-    - Our continuous features are calculated from the landmarks. We will address proportional considerations when comparing actor images, as length between landmarks does not provide information without a reference length. <br>
-    - Proportionality also has the side benefit of normalizing our values. <br>
 
 **Step 5: Analysing and Selecting Facial Features** <br>
     - We analyse and select the facial features that are most pertinent to our study, by correlating them with our tropes-character-movies data. <br>
@@ -67,13 +57,13 @@ Let us first identify the variables of interest for our story. <br>
 
 ### Part 3: Classifying our data
 **Step 6: Putting all the features together** <br>
-    - We put all the features, obtained from tropes-character-movies and the facial image analysis. <br>
-    - We filter the features, keeping only the most important. <br>
+    - We select the features, obtained from tropes-character-movies and the facial image analysis. <br>
     - We select a model and tune its parameters <br>
 
 ### Part 4: Data Analysis
 **Step 7: Analysis** <br>
     - We analyse our data and find answers to our research questions. <br>
+    - We also use t-test
 
 ### Part 5: Story-Telling
 **Step 8: Web Design** <br>
@@ -81,7 +71,7 @@ Let us first identify the variables of interest for our story. <br>
 
 ### Part 6: When the fun *finally* begins
 **Step 9: Adding our own images** <br>
-    - We add our own images and use what we found earlier to determine what character trope would suit each of us best. <br>
+    - We add our own images and use what we found earlier to determine what character trope would suit each of us best using logistic regression <br>
 
 ***BONUS step: Adding an interactive feature*** <br>
     - We add a feature where a user can upload his own image and/or fill a form. We would then analyse his image and/or form to show the character trope that suits the user best.
@@ -95,9 +85,8 @@ Let us first identify the variables of interest for our story. <br>
 ↓ <br>
 - Break - Homework 2 <br>
 ↓ <br>
-- 05.12 - Clustering Facial Features <br>
+- 05.12 - Classifying our data <br>
 ↓ <br>
-- 08.12 - Correlating with tropes-movies-characters dataset <br>
 - 08.12 - Analysis <br>
 ↓ <br>
 - 15.12 - Web Design <br>
@@ -124,7 +113,7 @@ Let us first identify the variables of interest for our story. <br>
 <tbody>
   <tr>
     <td class="tg-0lax">Tim1110mann</td>
-    <td class="tg-0lax">Exploring and pre-processing movies & characters metadata and TV Tropes (except ethnicity) data<br><br>Writing the ReadMe</td>
+    <td class="tg-0lax">Exploring and pre-processing movies & characters metadata and TV Tropes (except ethnicity) data<br><br><br>Writing the ReadMe</td>
   </tr>
   <tr>
     <td class="tg-0lax">CVoirol</td>
@@ -140,7 +129,7 @@ Let us first identify the variables of interest for our story. <br>
   </tr>
   <tr>
     <td class="tg-0lax">Usermatthis</td>
-    <td class="tg-0lax">Exploring and pre-processing movies & characters metadata and TV Tropes data<br><br><br><br></td>
+    <td class="tg-0lax">Exploring and pre-processing movies & characters metadata and TV Tropes (execept ethnicity) data<br><br><br><br></td>
   </tr>
 </tbody>
 </table>
