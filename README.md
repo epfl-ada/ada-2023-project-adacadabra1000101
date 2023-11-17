@@ -77,10 +77,9 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
 ## Proposed Timeline
 - 17.11: Pre-processing our movies & character metadata as well as tv tropes cluster. <br>
 - 17.11: Extracting images from TMDB <br>
+- 17.11: Extracting facial features from Actor_Images dataset <br>
 ↓ <br>
-- 18.11 - P2 Milestone <br>
-↓ <br>
-- 24.11 - Extracting facial features from Actor_Images dataset <br>
+- P2 Milestone <br> 
 ↓ <br>
 - Break - Homework 2 <br>
 ↓ <br>
@@ -95,7 +94,7 @@ We are given a series of datasets in this corpus, with the metadata and tv trope
 ↓ <br>
 - 22.12 - BONUS: Adding an interactive feature <br>
 ↓ <br>
-- 23.12: P3 Milestone - ADAcadabraaaa 🪄💫 <br>
+- P3 Milestone - ADAcadabraaaa 🪄💫 <br>
 
     
 ## Team Contributions
