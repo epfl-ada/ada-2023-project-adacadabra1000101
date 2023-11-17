@@ -12,7 +12,7 @@ In this study, we would like to explore following:
 ### Subquestions for story telling
 * Do casting choices perpetuate stereotypes?
 * Did certain films establish a trend in typecasting, where actors are selected based on their similarity to a particularly influential portrayal in a specific role?
-* In what type of role would you find yourself typecast?
+* In what type of role would you find yourself typecasted in?
 
 ## Additional Datasets
 - Actor Images Dataset: We construct our own dataset containing good quality face images of the actors of interest (#347). We obtain the images from [The Movie DataBase](https://www.themoviedb.org/) (TMDB). To see more detail, consult Step 3. <br>
