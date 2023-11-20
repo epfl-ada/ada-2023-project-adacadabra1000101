@@ -121,7 +121,7 @@ We identify the datasets of interest and their variables: *movies.metadata.tsv*,
   </tr>
   <tr>
     <td class="tg-0lax">CVoirol</td>
-    <td class="tg-0lax">Converting ethnicity keys to strings using WikiData before grouping and simplifying them <br><br><br><br></td>
+    <td class="tg-0lax">Converting ethnicity keys to strings using WikiData before grouping and simplifying them, Converting the tvtropes file to a dataframe <br><br><br><br></td>
   </tr>
   <tr>
     <td class="tg-0lax">izushka</td>
