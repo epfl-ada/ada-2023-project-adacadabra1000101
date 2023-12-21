@@ -5,7 +5,7 @@ Have you ever wondered why some actors keep getting cast in the same role? Why D
 This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse these tropes, by decoding the features *(gender, age, height, ethnicity and facial features)* of their actors observing them throughout time and movie genres, before correlating these findings to the movie's box office success.  
 
 
-_**Please find our code and results in project.ipynb**_
+_**Please find our code and results in for Mileston P3 in milstone_p3.ipynb**_
 
 
 ## Research questions
@@ -19,8 +19,16 @@ In this study, we would like to explore following:
 * In what type of role would you find yourself typecasted in?
 
 ## Additional Datasets
-- Actor Images Dataset: We construct our own dataset containing good quality face images of the actors of interest (#347). We obtain the images from [The Movie DataBase](https://www.themoviedb.org/) (TMDB). To see more detail, consult Step 3. <br>
+We construct our own dataset containing good quality face images of the actors of interest (#347). We obtain the images from [The Movie DataBase](https://www.themoviedb.org/) (TMDB). To see more detail, consult Step 3. <br>
 - [WikiData](https://query.wikidata.org/sparql): We use WikiData to convert our ActorEthnicities values from keys to usable, readable strings. 
+
+## Addtional Files
+- actor_images.csv : 
+- actor_features.csv :
+- people_images.ipynb :
+- 
+
+
 
 ## Methods
 ### 1) Supervised Machine Learning for Classification
