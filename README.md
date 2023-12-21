@@ -42,10 +42,7 @@ We have also one additional notebook used to generate some of the datasets above
 We want to find the function, y=F(X), that links the actor's features to the character trope played. We are given input/output pairs (X, y) with y the class labels and X the list of actor features, both continous and categorical. An example that could be used is logistic regression, which would give us an output between 0 and 1 of belonging to a character trope based on a input of actor features.<br>
 
 ### 2) Unsupervised Machine Learning for Clustering
-We want to see whether actors playing the same tropes ressemble each other, and therefore cluster together. We only concentrate on the facial features of the actors in order to obtain the clusters (use of the euclidean distance between actors). We are also interesting in finding tropes that cluster
-
-
-
+We want to see whether actors playing the same tropes ressemble each other, and therefore cluster together. We only concentrate on the facial features of the actors in order to obtain the clusters (use of the euclidean distance between actors). We are also interesting in finding tropes that cluster together 
 
 
 ## Project Structure
@@ -71,8 +68,7 @@ We identify the datasets of interest and their variables: *movies.metadata.tsv*,
     - We use the extracted coordinates to derive additional facial features of our actor images.<br>
 
 **Step 5: Analysing and Selecting Facial Features** <br>
-    - We analyse and select the facial features that are most pertinent to our study, by correlating them with our tropes-character-movies data. <br>
-    - We re-extract more features once the head-pose accuracy issue has been fixed. <br>
+    -<br>
 
 ### Part 3: Classifying our data
 **Step 6: Putting all the features together** <br>
@@ -87,13 +83,6 @@ We identify the datasets of interest and their variables: *movies.metadata.tsv*,
 ### Part 5: Story-Telling
 **Step 8: Web Design** <br>
     - We use our findings to create our story on the webpage. <br>
-
-### Part 6: When the fun *finally* begins
-**Step 9: Adding our own images** <br>
-    - We add our own images and use what we found earlier to determine what character trope would suit each of us best using logistic regression <br>
-
-***BONUS step: Adding an interactive feature*** <br>
-    - We add a feature where a user can upload his own image and/or fill a form. We would then analyse his image and/or form to show the character trope that suits the user best.
 
 ## Proposed Timeline
 - 17.11: Pre-processing our movies & character metadata as well as tv tropes cluster. <br>
