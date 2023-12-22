@@ -4,6 +4,7 @@
 Have you ever wondered why some actors keep getting cast in the same role? Why Dwayne Johnson always seems to plays the adventurous, headstrong and caring leader? Why Jason Staham is constantly cast as the gritty, hardboiled tough guy? <br>
 This phenomenon is called typecasting, in which an actor becomes strongly identified with particular roles, or characters having the same traits or coming from the same social or ethnic groups. The CMU Movies Summary Corpus has already observed 501 recurring character tropes. In this study, we want to analyse these tropes, by decoding the features *(gender, age, height, and facial features)* of their actors. 
 
+_**Please find our data story by clicking the following link: [Decoding the DNA of the Characters on the Silver Screen](https://tim1110mann.github.io/ADAcadabra1000101/)**_
 
 _**Please find our code and results for Milestone P3 in milstone_p3.ipynb**_
 
