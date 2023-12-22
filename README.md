@@ -6,7 +6,7 @@ This phenomenon is called typecasting, in which an actor becomes strongly identi
 
 _**Please find our data story by clicking the following link: [Decoding the DNA of the Characters on the Silver Screen](https://tim1110mann.github.io/ADAcadabra1000101/)**_
 
-_**Please find our code and results for Milestone P3 in milstone_p3.ipynb**_
+_**Please find our code and results for Milestone P3 in milestone_p3.ipynb**_
 
 _**The exploratory data analysis of the CMU dataset can be found in project.ipynb notebook (P2 Milestone)**_
 
