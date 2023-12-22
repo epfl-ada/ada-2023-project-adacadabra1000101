@@ -40,7 +40,7 @@ We have also one additional notebooks, one for the P2 milestone and the other on
 
 ## Methods
 ### 1) Supervised Machine Learning for Classification
-We want to find the function, y=F(X), that links the actor's features to the character trope played. We are given input/output pairs (X, y) with y the class labels and X the list of actor features, both continous and categorical. An example that could be used is logistic regression, which would give us an output between 0 and 1 of belonging to a character trope based on a input of actor features.<br>
+We want to find the function, y=F(X), that links the actor's features to the character trope played. We are given input/output pairs (X, y) with y beeing categorical and representing the differnt movie tropes and X the list of actor features, both continous and categorical. For this we use and compare differnt classification algorithms. We go through Decision Trees, kNN, ordinary least squares (OLS) and Supervised Neural Network algorithm.<br>
 
 ### 2) Unsupervised Machine Learning for Clustering
 We want to see whether actors playing the same character tropes ressemble each other, and therefore cluster together. We only concentrate on the facial features of the actors in this method (facial encodings). We apply a hierarchical clustering algortithm and use the euclidean distance between actors in order to define their similarity. <br>. 
