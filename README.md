@@ -39,7 +39,7 @@ We have also one additional notebooks, one for the P2 milestone and the other on
 - **people_images.ipynb** : jupyter notebook in which the functions to create *actor_images.csv* and *actor_features.csv* are defined 
 
 ## Methods
-### 1) Supervised Machine Learning for Classification
+### 1) Supervised Machine Learning for Causal Analysis
 We want to find the function, y=F(X), that links the actor's features to the character trope played. We are given input/output pairs (X, y) with y beeing categorical and representing the differnt movie tropes and X the list of actor features, both continous and categorical. For this we use and compare differnt classification algorithms. We go through Decision Trees, kNN and ordinary least squares (OLS).<br>
 
 ### 2) Unsupervised Machine Learning for Clustering
